@@ -9,7 +9,7 @@ or
 `yarn add react-router-confirm-navigation`
 
 #### Usage
-Can be placed anywhere inside a <Route /> component. Uses react router's higher order component `withRouter` to pass router props.
+Can be placed anywhere inside a component that is used for a `<Route />`. Uses react router's higher order component `withRouter` to pass router props.
 ```js
 import React from 'react';
 import ConfirmNavigation from 'react-router-confirm-navigation';

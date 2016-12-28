@@ -14,7 +14,7 @@ export default () => {
             console.log('navigation cancelled to ', nextLocation.pathname);
           }}
           allowNavigation={(nextLocation) => {
-            return false;
+            return nextLocation.pathname === '/';
           }}
         />
       </ConfirmNavigation>

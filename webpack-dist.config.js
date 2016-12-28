@@ -54,6 +54,14 @@ module.exports = {
         amd: 'react-dom',
       },
     },
+    {
+      'react-router': {
+        root: 'Router',
+        commonjs2: 'react-router',
+        commonjs: 'react-router',
+        amd: 'react-router',
+      },
+    },
   ],
   node: {
     Buffer: false,

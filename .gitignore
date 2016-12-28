@@ -1,5 +1,4 @@
 node_modules
 jest
-demo/demo-bundle.js
 *.log
 dist

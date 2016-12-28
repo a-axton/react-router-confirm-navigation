@@ -3,12 +3,15 @@ Displays a custom component to confirm or cancel a react-router navigation. Uses
 
 **Note: This project is in active development. Breaking API changes may happen without warning until v1.0.**
 
-#### Installation
+### Installation
 `npm i react-router-confirm-navigation -S`
+
 or
+
 `yarn add react-router-confirm-navigation`
 
-#### Usage
+### Usage
+###### RouteComponent.js
 Can be placed anywhere inside a component that is used for a `<Route />`. Uses react router's higher order component `withRouter` to pass router props.
 ```js
 import React from 'react';

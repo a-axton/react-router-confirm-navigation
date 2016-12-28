@@ -11,7 +11,7 @@
     "build-unminified": "webpack --config ./webpack-dist.config.js",
     "build-minified": "MINIFY=true webpack --config ./webpack-dist.config.js",
     "build": "npm run build-unminified && npm run build-minified",
-    "test": "jest -u"
+    "test": "jest"
   },
   "peerDependencies": {
     "react": "0.14.x || ^15.0.0",

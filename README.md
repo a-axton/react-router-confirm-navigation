@@ -56,3 +56,6 @@ class YourCustomConfirmation extends React.Component {
   }
 }
 ```
+#### TODO
+1. Test usage with react router v4.x.x
+2. Add more tests for improper component usage
